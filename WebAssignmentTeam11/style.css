@@ -1,0 +1,144 @@
+body, ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+img{
+  display: block;
+}
+
+.menuUndorderedList{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menuList{
+  float: left;
+  width: 180px;
+}
+.menuList a{
+    display: block;
+    color: #00D8FF;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    background-color: white;
+    font-family: 'impact';
+    font-size: 25px;
+}
+.menuList a:hover {
+    background-color: black;
+}
+#mainBody{
+  color: white;
+}
+body.black{
+  background-color: black;
+}
+body.white{
+  background-color: white;
+}
+
+.team-objective{
+  text-align: left;
+  padding-left: 40px;
+  color: #00D8FF;
+}
+.pic{
+  max-width: 100%;
+  width: 120px;
+  height: 160px;
+}
+.expression{
+  text-align: justify;
+  color: #00D8FF;
+}
+.AboutUsRow{
+  overflow: hidden;
+}
+.AboutUsCol{
+  float: left;
+  width: 30%;
+}
+
+.feedback{
+  color: blue;
+  float: left;
+  vertical-align: bottom;
+}
+#uploaded{
+  color: blue;
+}
+
+.Images{
+  float: left;
+}
+.comments{
+  font-size: 30px;
+  color: #00D8FF;
+  float: left;
+}
+
+.psyItem:hover{
+  width:300px;
+}
+
+.l-wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.l-row{
+  overflow: hidden;
+  margin: 0 -10px;
+}
+
+.l-col{
+  float: left;
+  width: 33.333333%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.mainCover{
+  background-image: url(Image/psy.png);
+  background-size: cover;
+  background-position: center bottom;
+  height: 50vh;
+}
+
+.header{
+  font-size: 100px;
+  line-height: 0.8em;
+  margin-top: -0.8em;
+  margin-bottom: 20px;
+  font-family: 'impact';
+  white-space: nowrap;
+}
+
+.psyItem{
+  margin-bottom: 20px;
+}
+
+.psyItemImage{
+  max-width: 100%;
+}
+
+@media(max-width: 960px) {
+  .l-col{
+    width: 50%;
+  }
+  .cover{
+    height: 20vh;
+  }
+  .header{
+    font-size: 50px;
+    text-align: center;
+  }
+}
